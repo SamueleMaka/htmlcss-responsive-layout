@@ -1,14 +1,13 @@
 /* Large Mobile */
 @media screen and (min-width:576px){
     .social-networks .btn{
-        padding: 10px 50px;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
     }
     .clearfix img{
         float: left;
         margin-right: 10px;
-    }
-    .social-networks{
-        overflow: auto;
     }
 }
 
